@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+main{
+	background: #dbd5d5;
+}
+body{
+	background-color: #475e4d;
+}
+footer{
+	background:#475e4d;
+	color: ghostwhite;
+	height: 100%;
+}
+
+.pizzas{
+	margin:12px;
+	border:1px black solid;
+}
+
+/*...........................Desktop view.............................*/
+@media (min-width: 992px){
+
+	.main_content{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+
+
+	}
+
+	.header{
+		overflow: hidden;
+		top: 0;
+		height: 90px;
+		width: 100%;
+		border-bottom: black solid;
+		padding: 20px;
+		display: flex;
+		background: ghostwhite;
+		position: fixed;
+	}
+
+	.header nav ul{
+		display: flex;
+		margin-left: 500px;
+	}
+
+	.header nav ul li{
+		margin: 15px;
+		padding: 5px;
+	}
+
+	.logo{
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 2em;
+		
+	}
+
+	main{
+		margin-top: 100px;
+		width: 100%;
+		
+
+	}
+	main > header{
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+	}
+
+
+	.pizzas{
+		width:30%;
+		margin: 10px;
+		border: black 1px solid; 
+		
+		padding: 0px;
+	}
+
+	
+	}
+
+
+	h3{
+		background-color: black;
+		color:ghostwhite;
+		width:150px;
+		position:static;
+		font-size:175%;
+		float:right;
+		top:0;
+	}
+
+	.my_head{
+		font-size:175%;
+	}
+
+	.pizzas>p{
+		clear:right;
+	}
+
+	.meat>h3{
+		background-color: burlywood;
+		color: black;
+	}
+	.cheese>h3{
+		background-color: darkgray;
+		color: black;
+	}
+	.pepperoni>h3{
+		background-color: lightgreen;
+		color: black;
+	}
+
+	.footer > header{
+		text-align: center;
+	}
+
+	.fa {
+  padding: 20px;
+  width: 100;
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+}
+.footer > ul{
+	display: flex;
+	justify-content: center;
+	color: ghostwhite;
+	}
+	 
+
+	
+.footer{
+	width:100%;
+	height:100%;
+}
+
+
+
+/*-----------Tablet View................................Tablet View..................................................*/
+@media (min-width: 768px) and (max-width:991px){
+
+	.main_content{
+		width: 100%;
+		
+
+
+	}
+
+	.header{
+		overflow: hidden;
+		top: 0;
+		height: 90px;
+		width: 100%;
+		border-bottom: black solid;
+		padding: 20px;
+		display: flex;
+		background: ghostwhite;
+		position: fixed;
+		
+	}
+
+	.header nav ul{
+		display: flex;
+		margin-left: 300px;
+	}
+
+	.header nav ul li{
+		margin: 15px;
+		padding: 5px;
+	}
+
+	.logo{
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 1em;
+		
+	}
+
+	main{
+		margin-top: 100px;
+		width: 100%;
+		
+
+	}
+	main > header{
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+	}
+
+
+	.pepperoni, .meat{
+		width:47%;
+		margin: 10px;
+		border: black 1px solid; 
+		
+		padding: 0px;
+	}
+
+	.pepperoni{
+		float:left;
+	}
+
+	.meat{
+		float: right;
+	}
+
+	.cheese{
+		clear: left;
+		clear:right;
+	}
+
+	
+	}
+
+
+	h3{
+		background-color: black;
+		color:ghostwhite;
+		width:150px;
+		position:static;
+		font-size:175%;
+		float:right;
+		top:0;
+	}
+
+	.my_head{
+		font-size:175%;
+	}
+
+	.pizzas>p{
+		clear:right;
+	}
+
+	.meat>h3{
+		background-color: burlywood;
+		color: black;
+	}
+	.cheese>h3{
+		background-color: darkgray;
+		color: black;
+	}
+	.pepperoni>h3{
+		background-color: lightgreen;
+		color: black;
+	}
+
+	.footer > header{
+		text-align: center;
+	}
+
+	.fa {
+  padding: 20px;
+  width: 100;
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+}
+.footer > ul{
+	display: flex;
+	justify-content: center;
+	}
+	 
+
+	
+.footer{
+	width:100%;
+	height:100%;
+}
+/*-----------Mobile View................................Mobile View..................................................*/
+@media (max-width: 767px){
+
+	.main_content{
+		width: 100%;
+		
+
+
+	}
+
+	.header{
+		overflow: hidden;
+		top: 0;
+		height: 90px;
+		width: 100%;
+		border-bottom: black solid;
+		padding: 20px;
+		display: flex;
+		background: ghostwhite;
+		position: fixed;
+	}
+
+	.header nav ul{
+		display: flex;
+		margin-left: 500px;
+	}
+
+	.header nav ul li{
+		margin: 15px;
+		padding: 5px;
+	}
+
+	.logo{
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 1em;
+		
+	}
+
+	main{
+		margin-top: 100px;
+		width: 100%;
+		
+
+	}
+	main > header{
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+	}
+
+
+	.pizzas{
+		width:100%;
+		margin: 15px;
+		border: black 1px solid; 
+		
+		padding: 7px;
+	}
+
+	
+	}
+
+
+	h3{
+		background-color: black;
+		color:ghostwhite;
+		width:150px;
+		position:static;
+		font-size:175%;
+		float:right;
+		top:0;
+	}
+
+	#my_head{
+		font: size 12pxs;
+	}
+
+	.pizzas>p{
+		clear:right;
+	}
+
+	.meat>h3{
+		background-color: burlywood;
+		color: black;
+	}
+	.cheese>h3{
+		background-color: darkgray;
+		color: black;
+	}
+	.pepperoni>h3{
+		background-color: lightgreen;
+		color: black;
+	}
+
+	.footer > header{
+		text-align: center;
+	}
+
+	.fa {
+  padding: 20px;
+  width: 100;
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+}
+.footer > ul{
+	display: flex;
+	justify-content: center;
+	}
+	 
+
+	
+.footer{
+	width:100%;
+	height:100%;
+}
